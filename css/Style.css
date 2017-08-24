@@ -85,7 +85,14 @@ a:hover {
 	text-align: right;
 	right: 0;
 	opacity: 0;
-	pointer-events: none;
+	/*pointer-events: none;*/
+	/*
+		https://jigsaw.w3.org/css-validator/#validate_by_upload
+		1 error property pointer-events does not exist
+		resolved by commenting out
+		will test function
+		can be uncommented if needed and error handled later
+	*/
 }
 
 .container > header nav a:hover:after {
